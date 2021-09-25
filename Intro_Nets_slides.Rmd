@@ -690,6 +690,12 @@ plot(g5,
      edge.arrow.size = 0)
 ```
 ]
+---
+class: inverse, center, middle
+
+.center[# ¡Hora de escribir código!]
+
+.center[##Centralidad de grado]
 
 ---
 class: left, top
@@ -739,6 +745,14 @@ plot(g1,
      edge.width = 5)
 ```
 ]
+---
+
+class: inverse, center, middle
+
+.center[# ¡Hora de escribir código!]
+
+.center[##Puntos de articulación]
+
 ---
 class: left, top
 
