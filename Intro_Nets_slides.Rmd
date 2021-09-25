@@ -446,8 +446,8 @@ class: left, top
 # Paleta de igraph
 .center[
 ```{r, echo=FALSE}
-x = 1:8
-y = rep(1,8)
+x <-1:8
+y <- rep(1,8)
 plot(x,y, pch=20, cex=20, col=categorical_pal(8), 
      xlim=c(0.5,8.5), 
      xlab = NA, 
