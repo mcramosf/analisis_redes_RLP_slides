@@ -45,7 +45,7 @@ no_marg <- c(0, 0, 0, 0)
 
 Asegúrate de descargar los materiales del taller:
 
-https://github.com/mcramosf/intro_analysis_redes
+https://github.com/mcramosf/intro_analisis_redes_RLP
 
 ---
 class: left, top
@@ -78,6 +78,9 @@ class: left, top
 # Nuestra primera gráfica de redes 
 .center[
 ```{r, echo= FALSE}
+library(igraph)
+library(igraphdata)
+data(karate)
 l <- layout_nicely(karate)
 plot(karate, 
      vertex.color = "#88398A",
@@ -437,6 +440,21 @@ class: inverse, center, middle
 
 .center[## Visualización de redes]
 
+---
+class: left, top
+
+# Paleta de igraph
+.center[
+```{r, echo=FALSE}
+x = 1:8
+y = rep(1,8)
+plot(x,y, pch=20, cex=20, col=categorical_pal(8), 
+     xlim=c(0.5,8.5), 
+     xlab = NA, 
+     ylab = NA, 
+     axes = FALSE)
+```
+]
 ---
 class: inverse, center, top
 
